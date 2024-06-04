@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
+    //  "baseUrl": ".",
+    "allowImportingTsExtensions": false
+    // "paths": {
+    //   "*": ["node_modules/*", "src/types/*", "src/middlewares/*"]
+    // }
+    // "paths": {
+    //   "src/*": ["./src/*"],
+    //   "middlewares/*": ["./src/middlewares/*"]
+    // }
+  },
+  "include": ["src/**/*.ts", "./*", "src/**/*.json", "src/**/*.js"],
+  "exclude": ["node_modules", "dist"],
+  "strict": true,
+  "lib": ["esnext"],
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true
+}
